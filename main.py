@@ -11,8 +11,9 @@ def get_extension(file_name: str) -> str:
     else:
         return "." + file_list[-1]
 
+
 def execute_application():
-    pass
+    file_name = input("Введите название файла с расширением: ")
 
 
 if __name__ == "__main__":
